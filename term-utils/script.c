@@ -69,6 +69,8 @@
 #include "pty-session.h"
 #include "debug.h"
 
+#include <sqlite3.h>
+
 static UL_DEBUG_DEFINE_MASK(script);
 UL_DEBUG_DEFINE_MASKNAMES(script) = UL_DEBUG_EMPTY_MASKNAMES;
 
